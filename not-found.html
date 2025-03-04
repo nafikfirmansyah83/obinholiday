@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>404 - Page Not Found</title>
+        <link rel='shortcut icon' href="assets/logo/logo.png">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body class="min-h-screen bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80');"></body>
+        <main class="grid min-h-screen place-items-center px-6 py-24 sm:py-32 lg:px-8 bg-black bg-opacity-30">
+            <div class="text-center animate-fade-in">
+                <p class="text-5xl font-bold text-white animate-pulse mb-8">404 - Page Not Found</p>
+                <p class="mt-6 text-lg font-medium text-pretty text-[#EEEEEE] sm:text-xl/8 animate-fade-in">
+                    Mohon maaf, halaman yang Anda cari sedang dalam pengembangan.
+                </p>
+                <div class="mt-10 flex items-center justify-center gap-x-6"></div>
+                    <a href="index.html" class="rounded-md bg-gradient-to-r from-indigo-600 to-purple-600 px-6 py-3.5 text-base font-semibold text-white shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-110 animate-bounce-slow">
+                    <i class="fas fa-home mr-2"></i>Kembali ke Beranda
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <style>
+            @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+            }
+            @keyframes slideUp {
+            from { transform: translateY(40px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+            }
+            @keyframes bounceSlow {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            }
+            .animate-fade-in {
+            animation: fadeIn 1.5s ease-in;
+            }
+            .animate-slide-up {
+            animation: slideUp 1s ease-out;
+            }
+            .animate-bounce-slow {
+            animation: bounceSlow 3s infinite;
+            }
+        </style>
+    </body>
+</html>

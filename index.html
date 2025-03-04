@@ -1,0 +1,298 @@
+<html>
+    <head>
+        <title>Obin Holiday - Travel Agency</title>
+        <link rel='shortcut icon' href="assets/logo/logo.png">
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    </head>
+    <body class="tracking-wide">
+        <header class="w-full py-2 fixed top-0 left-0 right-0 bg-white z-50">
+            <nav class="container mx-auto px-10 flex justify-between items-center">
+                <div class="">
+                    <img src="assets/logo/text-logo.png" alt="" class="w-[170px] md:-[200px]">
+                </div>
+                <div class="">
+                    <ul class="hidden md:flex capitalize gap-8 text-sm">
+                    <li><a href="#beranda" class="hover:text-[#134B70] font-bold text-[#134B70]">Beranda</a></li>
+                    <li><a href="lokal.html" class="hover:text-[#134B70]">Wisata Lokal</a></li>
+                    <li><a href="" class="hover:text-[#134B70]">Wisata Luar Negeri</a></li>
+                    <li><a href="" class="hover:text-[#134B70]">Transportasi</a></li>
+                    <li><a href="" class="hover:text-[#134B70]">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="hidden md:block text-sm">
+                    <a href=""><button class="btn-blue">Book Now</button></a>
+                </div>
+                <div id="navMobile" class="hidden transition-all duration-300">
+                    <ul class="capitalize bg-white absolute h-[100vh] inset-0 py-20 flex flex-col gap-4 items-center z-50 text-sm">
+                    <div>
+                        <img src="assets/logo/logo-and-text.png" alt="" class="w-[170px]">
+                    </div>
+                    <li><a href="#beranda" class="hover:text-[#134B70] font-bold text-[#134B70]">Beranda</a></li>
+                    <li><a href="lokal.html" class="hover:text-[#134B70]">Wisata Lokal</a></li>
+                    <li><a href="" class="hover:text-[#134B70]">Wisata Luar Negeri</a></li>
+                    <li><a href="" class="hover:text-[#134B70]">Transportasi</a></li>
+                    <li><a href="" class="hover:text-[#134B70]">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div id="menuBurger" class="md:hidden cursor-pointer z-50 transition-all duration-500">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+        <main id="beranda">
+            <header class="w-full pt-34 pb-24 relative">
+                <div class="container mx-auto px-10">
+                    <h1 class="hidden md:block font-bold capitalize text-[76px] absolute -left-[148px] bottom-52 -z-10 text-[#EEEEEE]/80 -rotate-90">obin holiday</h1>
+                    <div class="w-full md:flex">
+                        <div class="w-full md:hidden mb-12">
+                            <div class="w-full h-[200px] overflow-hidden rounded-lg relative">
+                                <img src="https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg" alt="" class="w-full h-full object-cover">
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 mb-12 md:mb-0">
+                            <div class="flex gap-2 items-center mb-14">
+                                <i class="fa-solid fa-compass text-[#134B70]"></i>
+                                <p class="font-semibold capitalize text-sm text-black">Let's go around the world</p>
+                            </div>
+                            <h1 class="font-bold text-3xl capitalize text-black max-w-lg leading-none mb-6 md:text-5xl">
+                                Let's travel and <span class="font-kedua text-[#134B70] ">visit new</span>, very beautiful places 
+                            </h1>
+                            <p class="leading-tights max-w-lg text-gray-500 text-sm mb-12 capitalize">
+                                don't delay, it's time for you to travel around the world and discover other new andinteresting things.
+                            </p>
+                            <div class="flex gap-3">
+                                <button class="btn-blue capitalize flex gap-2 justify-between items-center">explore now<i class="fa-solid fa-caret-right"></i></button>
+                                <button class="btn-black capitalize flex gap-2 justify-between items-center"><span class="hidden md:block">packages</span><i class="fa-solid fa-box-archive"></i></button>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 relative hidden md:block">
+                            <div class="w-[230px] h-[300px] rounded-lg border-[5px] border-white overflow-hidden absolute -top-5 left-20">
+                                <img src="https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg" alt="" class="w-full h-full object-cover">
+                            </div>
+                            <div class="w-[200px] h-[230px] rounded-lg border-[5px] border-white overflow-hidden absolute left-32 -bottom-10 z-20">
+                                <img src="https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg" alt="" class="w-full h-full object-cover">
+                            </div>
+                            <div class="w-[230px] h-[300px] rounded-lg border-[5px] border-white overflow-hidden absolute bottom-5 right-25 z-10">
+                                <img src="https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg" alt="" class="w-full h-full object-cover">
+                            </div>
+                            <div class="w-[165px] h-[70px] px-[5px] bg-white rounded-md shadow-lg flex items-center gap-2 absolute right-9 z-30">
+                                <div class="w-[70px] h-[50px] rounded-md overflow-hidden">
+                                    <img src="https://images.pexels.com/photos/2335126/pexels-photo-2335126.jpeg" alt="" class="w-full h-full object-cover">
+                                </div>
+                                <div class="flex flex-col">
+                                    <h4 class="font-semibold text-sm capitalize">travel plan</h4>
+                                    <p class="text-[10px] capitalize">plan first before traveling</p>
+                                </div>
+                            </div>
+                            <div class="w-[145px] h-[105px] bg-white py-2 px-3 rounded-md shadow-lg flex flex-col items-start justify-center absolute z-30 -bottom-5 left-10 capitalize">
+                                <div class="flex gap-4 mb-2">
+                                    <i class="fa-solid fa-chart-simple text-[#134B70]"></i>
+                                    <p class="font-normal text-xs ">best place</p>
+                                </div>
+                                <div class="flex gap-4 mb-2">
+                                    <i class="fa-solid fa-camera text-[#134B70]"></i>
+                                    <p class="font-normal text-xs ">best photo</p>
+                                </div>
+                                <div class="flex gap-4 mb-2">
+                                    <i class="fa-solid fa-location-crosshairs text-[#134B70]"></i>
+                                    <p class="font-normal text-xs ">best location</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </main>
+        <main>
+            <header class="w-full py-20 relative">
+                <div class="absolute bottom-4 left-10">
+                    <img src="assets/elements/titik.svg" alt="" class="w-[110px] md:w-[180px]">
+                </div>
+                <div class="container mx-auto px-10">
+                    <div class="w-full flex justify-between">
+                        <div class="w-full md:w-1/2 relative hidden md:block">
+                            <div class="w-[350px] h-[300px] overflow-hidden border-[5px] border-white rounded-lg absolute">
+                                <img src="https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg" alt="" class="w-full h-full object-cover">
+                            </div>
+                            <div class="w-[350px] h-[300px] overflow-hidden border-[5px] border-white rounded-lg absolute top-32 right-5 shadow-lg">
+                                <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="" class="w-full h-full object-cover">
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 md:pl-10">
+                            <h2 class="font-bold capitalize text-xl md:text-3xl text-black mb-12">
+                                things you need prepare <span class="text-[#134B70]">before traveling</span>
+                            </h2>
+                            <div class="text-black mb-4">
+                                <div class="flex items-center gap-3 mb-2">
+                                    <h3 class="text-xl md:text-2xl capitalize">01.</h3>
+                                    <h3 class="text-xl md:text-2xl font-semibold capitalize">best food</h3>
+                                </div>
+                                <p class="font-light capitalize text-black max-w-84 ml-12">
+                                    we profide the best quality food for you to enjoy while traveling.
+                                </p>
+                            </div>
+                            <div class="text-black mb-4">
+                                <div class="flex items-center gap-3 mb-2">
+                                    <h3 class="text-xl md:text-2xl capitalize">02.</h3>
+                                    <h3 class="text-xl md:text-2xl font-semibold capitalize">best travel plan</h3>
+                                </div>
+                                <p class="font-light capitalize text-black max-w-84 ml-12">
+                                    we profide the best travel packages for you.
+                                </p>
+                            </div>
+                            <div class="text-black mb-4">
+                                <div class="flex items-center gap-3 mb-2">
+                                    <h3 class="text-xl md:text-2xl capitalize">03.</h3>
+                                    <h3 class="text-xl md:text-2xl font-semibold capitalize">best accommodation</h3>
+                                </div>
+                                <p class="font-light capitalize text-black max-w-84 ml-12">
+                                    we profide the best Transportation experience from our trusted partners.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <header class="w-full py-20">
+                <div id="gallery" class="container mx-auto px-6 md:px-10">
+                    <div class="flex flex-col md:flex-row justify-between items-center mb-8 md:mb-12">
+                        <div class="w-full md:w-1/2 mb-4 md:mb-0">
+                            <h2 class="font-bold capitalize text-xl md:text-3xl text-black">
+                                populer <span class="text-[#134B70]">destination</span> Obin Holiday
+                            </h2>
+                        </div>
+                        <div class="w-full md:w-1/2 flex justify-center md:justify-end gap-3">
+                            <button id="scrollLeft" class="w-10 h-10 bg-black/70 rounded-full flex hover:bg-black/35 justify-center items-center cursor-pointer">
+                                <i class="fa-solid fa-angle-left text-white"></i>
+                            </button>
+                            <button id="scrollRight" class="w-10 h-10 bg-[#134B70]/70 rounded-full flex hover:bg-[#134B70]/35 justify-center items-center cursor-pointer">
+                                <i class="fa-solid fa-angle-right text-white"></i>
+                            </button>        
+                        </div>
+                    </div>
+                    <div class="scroll-container flex space-x-6 overflow-x-auto pb-4">
+                        <div class="relative overflow-hidden rounded-lg group min-w-[300px]">
+                            <img src="https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg" 
+                                 alt="Ubud Rice Terraces" 
+                                 class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                                    <h3 class="text-white font-bold text-base">Ubud</h3>
+                                    <p class="text-white text-sm">Cultural Heart of Bali</p>
+                                    <button class="mt-4 bg-white/20 text-white px-6 py-2 rounded-full backdrop-blur-sm hover:bg-white/30 transition">
+                                        <a href="" class="text-sm">Explore</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative overflow-hidden rounded-lg group min-w-[300px]">
+                            <img src="https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg" 
+                                 alt="Nusa Dua" 
+                                 class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                                    <h3 class="text-white font-bold text-base">Nusa Dua</h3>
+                                    <p class="text-white text-sm">Luxury Beach Resort</p>
+                                    <button class="mt-4 bg-white/20 text-white px-6 py-2 rounded-full backdrop-blur-sm hover:bg-white/30 transition">
+                                        <a href="" class="text-sm">Explore</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative overflow-hidden rounded-lg group min-w-[300px]">
+                            <img src="https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg" 
+                                 alt="Nusa Penida" 
+                                 class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                                    <h3 class="text-white font-bold text-base">Nusa Penida</h3>
+                                    <p class="text-white text-sm">Hidden Paradise</p>
+                                    <button class="mt-4 bg-white/20 text-white px-6 py-2 rounded-full backdrop-blur-sm hover:bg-white/30 transition">
+                                        <a href="" class="text-sm">Explore</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative overflow-hidden rounded-lg group min-w-[300px]">
+                            <img src="https://images.pexels.com/photos/1171414/pexels-photo-1171414.jpeg" 
+                                 alt="Kuta Beach" 
+                                 class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                                    <h3 class="text-white font-bold text-base">Kuta Beach</h3>
+                                    <p class="text-white text-sm">Surf & Sunset</p>
+                                    <button class="mt-4 bg-white/20 text-white px-6 py-2 rounded-full backdrop-blur-sm hover:bg-white/30 transition">
+                                        <a href="" class="text-sm">Explore</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative overflow-hidden rounded-lg group min-w-[300px]">
+                            <img src="https://images.pexels.com/photos/2385210/pexels-photo-2385210.jpeg" 
+                                 alt="Seminyak" 
+                                 class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                                    <h3 class="text-white font-bold text-base">Seminyak</h3>
+                                    <p class="text-white text-sm">Luxury & Lifestyle</p>
+                                    <button class="mt-4 bg-white/20 text-white px-6 py-2 rounded-full backdrop-blur-sm hover:bg-white/30 transition">
+                                        <a href="" class="text-sm">Explore</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </main>
+        <footer class="bg-[#EEEEEE] text-[#134B70]">
+            <div class="max-w-7xl mx-auto px-10 py-4">
+            <!-- Footer Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+                    <!-- Brand Section -->
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-2 justify-center md:justify-start">
+                            <img src="assets/logo/logo-and-text.png" alt="" class="w-65">
+                        </div>
+                        <p class="text-[#134B70] text-sm">Experience the world's finest destinations with our expertly curated travel packages.</p>
+                        <div class="flex space-x-4 justify-center md:justify-start">
+                            <a href="#" class="hover:text-[#508C9B] transition-colors"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="hover:text-[#508C9B] transition-colors"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="hover:text-[#508C9B] transition-colors"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="hover:text-[#508C9B] transition-colors"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="space-y-3">
+                        <h3 class="text-lg font-semibold">Contact Us</h3>
+                        <div class="space-y-2 text-[#134B70] text-sm">
+                            <p class="flex items-center"><i class="fas fa-map-marker-alt w-4 mr-3"></i> 123 Travel Street, Adventure City</p>
+                            <p class="flex items-center"><i class="fas fa-phone w-4 mr-3"></i> +1 234 567 890</p>
+                            <p class="flex items-center"><i class="fas fa-envelope w-4 mr-3"></i> info@travelmate.com</p>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="space-y-3">
+                        <h3 class="text-lg font-semibold">Explore</h3>
+                        <ul class="space-y-2 text-[#134B70] text-sm">
+                            <li><a href="#" class="hover:text-[#508C9B] transition-colors">About Us</a></li>
+                            <li><a href="#" class="hover:text-[#508C9B] transition-colors">Our Services</a></li>
+                            <li><a href="#" class="hover:text-[#508C9B] transition-colors">Privacy Policy</a></li>
+                            <li><a href="#" class="hover:text-[#508C9B] transition-colors">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bottom Bar -->
+                <div class="border-t border-gray-800 mt-8 pt-4 text-center text-[#134B70] text-xs">
+                    <p>Obin Holiday <i class="fa-regular fa-copyright text-[#134B70]"></i> 2025. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>
